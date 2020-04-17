@@ -1,0 +1,14 @@
+{
+  "name": "trademe-rents",
+  "version": "1.0.0",
+  "description": "Scrapes trademe and it's rents",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^4.1.1"
+  },
+  "scripts": {
+    "scrape": "node index.js",
+    "analyse": "node analyse.js"
+  }
+}
